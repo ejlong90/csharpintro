@@ -10,8 +10,8 @@ namespace DoWhile
 
             do
             {
-                Console.Write($"The square root of {counter} is ");
-                Console.WriteLine(Math.Sqrt(counter));
+                Console.WriteLine($"The sum of {counter} + 5");
+                Console.WriteLine(counter + 5);
                 Console.WriteLine("Please press Enter");
                 Console.ReadKey();
                 counter++;

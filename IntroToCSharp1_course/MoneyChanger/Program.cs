@@ -1,6 +1,7 @@
 ﻿//Eric Long - 5/10/2023
 
 using static System.Console;
+using static System.Math;
 
 namespace MoneyChanger
 {
