@@ -1,26 +1,21 @@
-// function formatTimeLeft(time) {
-//   // The largest round integer less than or equal to the result of the time divided by 60. Want timer to be 45 minutes though!
+// variables
 
-//   const minutes = Math.floor(time / 60);
+let workTitle = document.getElementById("work");
+let breakTitle = document.getElementById("break");
 
-//   // seconds are the remainder of the time divided by 60 (modulus operator)
-//   let seconds = time % 60;
+let workTime = 60;
+let breaktime = 10;
 
-//   // if the value of the seconds is less than 10, then display
-//   if (seconds < 10) {
-//     seconds = `0${seconds}`;
-//   }
+let seconds = "00";
 
-//   // the output in MM:SS format
-//   return `${minutes}:${seconds}`;
-// }
+// display
+window.onload = () => {
+  document.getElementById("minutes").innerHTML = workTime;
+  document.getElementById("seconds").innerHTML = seconds;
 
-// // Start with an initial value of 20 seconds
+  workTitle.classList.add('active');
+}
 
-// const TIME_LIMIT = 20;
+// start timer
 
-// // Initially, no time has passed, but this will count up
-// // and substract from the TIME_LIMIT
-
-// let timePassed = 0;
-// let timeLeft = TIME_LIMIT;
+function start

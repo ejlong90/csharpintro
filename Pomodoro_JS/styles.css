@@ -120,4 +120,18 @@ section {
 .time p:nth-of-type(2) {
   position: relative;
   top: -0.5rem;
+  margin-inline: 1rem;
+}
+.controls {
+  margin-top: 3rem;
+}
+
+.controls button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.controls #reset {
+  display: none;
 }
